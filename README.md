@@ -2,7 +2,7 @@
 
 
 Python 3 code snippet for retrieving entries for a specific day from the Timeneye API.
-It returns a dictionary with the the employee's name and a tuple (total hours, billable hours)
+It returns a dictionary with the the employees names as keys and tuples (total hours, billable hours) as values.
 
 
 ```
