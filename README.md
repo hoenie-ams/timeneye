@@ -30,8 +30,9 @@ def convert_to_dict(d):
                           (x['projectName'] != 'XXXXXXX' and x['userName'] == e)]))  # replace XXXXXXX with the non-billable project name
     return result
 
-# 
+# Run the the functions for '2017-12-23'
 date = '2017-12-23'
 d = get_data_timeney(date)
 result = convert_to_dict(d)
+print(result)
 ```
